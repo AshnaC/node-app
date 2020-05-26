@@ -1,0 +1,20 @@
+{
+  "name": "webinstaller",
+  "version": "1.0.0",
+  "description": "app for webinstaller node",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.16.2",
+    "http-proxy-middleware": "~0.18.0",
+    "file-system": "~2.2.2",
+    "multer": "^1.4.1",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-hot-middleware": "^2.25.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
